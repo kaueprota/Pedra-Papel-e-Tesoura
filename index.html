@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1008e426eb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <h1>Pedra, Papel e Tesoura</h1>
+    </nav>
+    <main>
+        <div class="player">
+            <div><img src="./images/rock.png" id="pedra" class="pedra" data-jogada="pedra"></div>
+            <div><img src="./images/paper.png" id="papel" class="papel" data-jogada="papel"></div>
+            <div><img src="./images/scisor.png" id="tesou" class="tesoura" data-jogada="tesoura" ></div>
+        </div><!--PLAYER-ENEMY-->
+        <div class="resultado">
+            <h1 id="resultado">WINS</h1>
+            <P id="detalhe">Você venceu o inimigo!</P>
+
+            <p id="playerResultado"><span>Vitórias:</span>0</p>
+            <p id="playerEnemy"><span>Derrotas:</span>0</p>
+        </div><!--RESULTADP=O-->
+        <div class="player-enemy">
+            <div><img src="./images/rock.png"  class='pedra' data-jogada="pedra"></div>
+            <div><img src="./images/paper.png" class="papel" data-jogada="papel"></div>
+            <div><img src="./images/scisor.png" class="tesoura" data-jogada="tesoura"></div>
+        </div><!--PLAYER-ENEMY-->
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
